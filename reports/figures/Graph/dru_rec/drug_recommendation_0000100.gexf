@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="category" type="string" />
+      <attribute id="1" title="mesh_heading" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>09/04/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="D015843" label="D015843">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="serpin" />
+        </attvalues>
+      </node>
+      <node id="D009369" label="D009369">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Neoplasms" />
+        </attvalues>
+      </node>
+      <node id="D015470" label="D015470">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Leukemia, Myeloid, Acute" />
+        </attvalues>
+      </node>
+      <node id="D002821" label="D002821">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Chorioamnionitis" />
+        </attvalues>
+      </node>
+      <node id="D009447" label="D009447">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Neuroblastoma" />
+        </attvalues>
+      </node>
+      <node id="D001261" label="D001261">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Pulmonary Atelectasis" />
+        </attvalues>
+      </node>
+      <node id="D006816" label="D006816">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Huntington Disease" />
+        </attvalues>
+      </node>
+      <node id="D007247" label="D007247">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Infertility, Female" />
+        </attvalues>
+      </node>
+      <node id="D007410" label="D007410">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Intestinal Diseases" />
+        </attvalues>
+      </node>
+      <node id="D008607" label="D008607">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Intellectual Disability" />
+        </attvalues>
+      </node>
+      <node id="D004437" label="D004437">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Ebstein Anomaly" />
+        </attvalues>
+      </node>
+      <node id="D011251" label="D011251">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Pregnancy Complications, Infectious" />
+        </attvalues>
+      </node>
+      <node id="D013290" label="D013290">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Streptococcal Infections" />
+        </attvalues>
+      </node>
+      <node id="D008831" label="D008831">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Microcephaly" />
+        </attvalues>
+      </node>
+      <node id="D009421" label="D009421">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Nervous System Malformations" />
+        </attvalues>
+      </node>
+      <node id="D011225" label="D011225">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Pre-Eclampsia" />
+        </attvalues>
+      </node>
+      <node id="D004195" label="D004195">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Disease Models, Animal" />
+        </attvalues>
+      </node>
+      <node id="D001943" label="D001943">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Breast Neoplasms" />
+        </attvalues>
+      </node>
+      <node id="D014376" label="D014376">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Tuberculosis" />
+        </attvalues>
+      </node>
+      <node id="D016518" label="D016518">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Neurofibromatosis 2" />
+        </attvalues>
+      </node>
+      <node id="D006627" label="D006627">
+        <attvalues>
+          <attvalue for="0" value="X" />
+          <attvalue for="1" value="Hirschsprung Disease" />
+        </attvalues>
+      </node>
+      <node id="D017204" label="D017204">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Angelman Syndrome" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="D015843" target="D004195" weight="1.0250857708484826e-05" />
+      <edge id="1" source="D015843" target="D001943" weight="2.7762739627146407e-05" />
+      <edge id="2" source="D015843" target="D009369" weight="7.303736117295439e-05" />
+      <edge id="3" source="D009369" target="D006627" weight="0.0016290321375067138" />
+      <edge id="4" source="D009369" target="D007247" weight="1.2813572135606033e-06" />
+      <edge id="5" source="D009369" target="D004195" weight="0.0025981653100297167" />
+      <edge id="6" source="D009369" target="D009447" weight="0.001788561110595009" />
+      <edge id="7" source="D009369" target="D007410" weight="1.2813572135606033e-06" />
+      <edge id="8" source="D009369" target="D014376" weight="2.7762739627146406e-06" />
+      <edge id="9" source="D009369" target="D008607" weight="2.135595355934339e-05" />
+      <edge id="10" source="D009369" target="D008831" weight="1.2813572135606033e-06" />
+      <edge id="11" source="D009369" target="D017204" weight="0.00018985442714256274" />
+      <edge id="12" source="D009369" target="D016518" weight="7.325092070854783e-05" />
+      <edge id="13" source="D009369" target="D009421" weight="1.3454250742386335e-05" />
+      <edge id="14" source="D009369" target="D006816" weight="0.00014158997209844668" />
+      <edge id="15" source="D009369" target="D015470" weight="0.0016540186031711456" />
+      <edge id="16" source="D009369" target="D001943" weight="0.020638393519749453" />
+      <edge id="17" source="D015470" target="D002821" weight="2.5627144271212066e-06" />
+      <edge id="18" source="D015470" target="D011251" weight="2.5627144271212066e-06" />
+      <edge id="19" source="D015470" target="D013290" weight="2.5627144271212066e-06" />
+      <edge id="20" source="D015470" target="D006627" weight="2.5627144271212066e-06" />
+      <edge id="21" source="D015470" target="D001943" weight="4.0362752227159005e-05" />
+      <edge id="22" source="D015470" target="D006816" weight="0.0001366781027797977" />
+      <edge id="23" source="D015470" target="D011225" weight="2.5627144271212066e-06" />
+      <edge id="24" source="D015470" target="D004195" weight="0.00022381039330191872" />
+      <edge id="25" source="D015470" target="D016518" weight="2.5627144271212066e-06" />
+      <edge id="26" source="D002821" target="D011251" weight="2.5627144271212066e-06" />
+      <edge id="27" source="D002821" target="D013290" weight="2.5627144271212066e-06" />
+      <edge id="28" source="D002821" target="D011225" weight="2.5627144271212066e-06" />
+      <edge id="29" source="D002821" target="D016518" weight="2.5627144271212066e-06" />
+      <edge id="30" source="D002821" target="D006627" weight="2.5627144271212066e-06" />
+      <edge id="31" source="D009447" target="D009421" weight="5.766107461022715e-06" />
+      <edge id="32" source="D009447" target="D017204" weight="4.271190711868678e-06" />
+      <edge id="33" source="D009447" target="D008831" weight="3.8440716406818105e-06" />
+      <edge id="34" source="D009447" target="D006627" weight="2.5627144271212066e-06" />
+      <edge id="35" source="D009447" target="D001943" weight="0.0005116886472818676" />
+      <edge id="36" source="D009447" target="D006816" weight="8.542381423737356e-07" />
+      <edge id="37" source="D009447" target="D004195" weight="0.000526637814773408" />
+      <edge id="38" source="D009447" target="D008607" weight="8.75594095933079e-06" />
+      <edge id="39" source="D001261" target="D006627" weight="2.5627144271212066e-06" />
+      <edge id="40" source="D001261" target="D014376" weight="2.5627144271212066e-06" />
+      <edge id="41" source="D006816" target="D001943" weight="2.349154891527773e-05" />
+      <edge id="42" source="D006816" target="D007410" weight="3.4169525694949424e-06" />
+      <edge id="43" source="D006816" target="D014376" weight="8.542381423737356e-07" />
+      <edge id="44" source="D006816" target="D004195" weight="6.833905138989885e-06" />
+      <edge id="45" source="D006816" target="D006627" weight="3.4169525694949424e-06" />
+      <edge id="46" source="D007247" target="D004195" weight="4.271190711868678e-07" />
+      <edge id="47" source="D007247" target="D006627" weight="8.115262352550487e-06" />
+      <edge id="48" source="D007410" target="D004195" weight="3.2033930339015083e-06" />
+      <edge id="49" source="D007410" target="D006627" weight="3.4169525694949424e-06" />
+      <edge id="50" source="D008607" target="D009421" weight="0.00015034591305777747" />
+      <edge id="51" source="D008607" target="D001943" weight="1.6657643776287843e-05" />
+      <edge id="52" source="D008607" target="D017204" weight="1.6657643776287843e-05" />
+      <edge id="53" source="D008607" target="D008831" weight="9.396619566111092e-06" />
+      <edge id="54" source="D008607" target="D006627" weight="2.5627144271212066e-06" />
+      <edge id="55" source="D004437" target="D006627" weight="5.979666996616149e-06" />
+      <edge id="56" source="D004437" target="D009421" weight="5.979666996616149e-06" />
+      <edge id="57" source="D011251" target="D013290" weight="2.5627144271212066e-06" />
+      <edge id="58" source="D011251" target="D011225" weight="2.5627144271212066e-06" />
+      <edge id="59" source="D011251" target="D004195" weight="7.261024210176753e-06" />
+      <edge id="60" source="D011251" target="D016518" weight="2.5627144271212066e-06" />
+      <edge id="61" source="D011251" target="D006627" weight="2.5627144271212066e-06" />
+      <edge id="62" source="D013290" target="D011225" weight="2.5627144271212066e-06" />
+      <edge id="63" source="D013290" target="D016518" weight="2.5627144271212066e-06" />
+      <edge id="64" source="D013290" target="D006627" weight="2.5627144271212066e-06" />
+      <edge id="65" source="D008831" target="D006627" weight="2.5627144271212066e-06" />
+      <edge id="66" source="D008831" target="D017204" weight="2.5627144271212066e-06" />
+      <edge id="67" source="D009421" target="D004195" weight="8.969500494924224e-06" />
+      <edge id="68" source="D009421" target="D006627" weight="5.979666996616149e-06" />
+      <edge id="69" source="D011225" target="D004195" weight="1.2813572135606033e-06" />
+      <edge id="70" source="D011225" target="D016518" weight="2.5627144271212066e-06" />
+      <edge id="71" source="D011225" target="D006627" weight="2.5627144271212066e-06" />
+      <edge id="72" source="D004195" target="D006627" weight="2.7762739627146406e-06" />
+      <edge id="73" source="D004195" target="D017204" weight="5.338988389835847e-06" />
+      <edge id="74" source="D004195" target="D001943" weight="0.0015177676194625348" />
+      <edge id="75" source="D004195" target="D014376" weight="2.242375123731056e-05" />
+      <edge id="76" source="D001943" target="D006627" weight="0.0016290321375067138" />
+      <edge id="77" source="D001943" target="D017204" weight="0.00010891536315265128" />
+      <edge id="78" source="D001943" target="D014376" weight="2.7762739627146406e-06" />
+      <edge id="79" source="D014376" target="D006627" weight="2.5627144271212066e-06" />
+      <edge id="80" source="D016518" target="D006627" weight="2.5627144271212066e-06" />
+      <edge id="81" source="D006627" target="D017204" weight="2.5627144271212066e-06" />
+    </edges>
+  </graph>
+</gexf>

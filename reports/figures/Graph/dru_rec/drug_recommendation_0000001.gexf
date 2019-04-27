@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="category" type="string" />
+      <attribute id="1" title="mesh_heading" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>09/04/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="D009369" label="D009369">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Neoplasms" />
+        </attvalues>
+      </node>
+      <node id="D000230" label="D000230">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Adenocarcinoma" />
+        </attvalues>
+      </node>
+      <node id="D015275" label="D015275">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Tumor Lysis Syndrome" />
+        </attvalues>
+      </node>
+      <node id="D015324" label="D015324">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Pyruvate Carboxylase Deficiency Disease" />
+        </attvalues>
+      </node>
+      <node id="D010190" label="D010190">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Pancreatic Neoplasms" />
+        </attvalues>
+      </node>
+      <node id="D016207" label="D016207">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="Disparate Innate Cytokine" />
+        </attvalues>
+      </node>
+      <node id="D003924" label="D003924">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Diabetes Mellitus, Type 2" />
+        </attvalues>
+      </node>
+      <node id="D010182" label="D010182">
+        <attvalues>
+          <attvalue for="0" value="X" />
+          <attvalue for="1" value="Pancreatic Diseases" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="D009369" target="D016207" weight="0.003018023357006408" />
+      <edge id="1" source="D009369" target="D010190" weight="0.0013311165853538735" />
+      <edge id="2" source="D009369" target="D000230" weight="0.007485902401156638" />
+      <edge id="3" source="D009369" target="D015324" weight="5.317632436276504e-05" />
+      <edge id="4" source="D009369" target="D010182" weight="0.0005439361371564761" />
+      <edge id="5" source="D009369" target="D015275" weight="0.0026455755269314592" />
+      <edge id="6" source="D009369" target="D003924" weight="0.0005917734731294053" />
+      <edge id="7" source="D000230" target="D016207" weight="0.00023576972729515104" />
+      <edge id="8" source="D000230" target="D010182" weight="0.0005439361371564761" />
+      <edge id="9" source="D000230" target="D010190" weight="0.0010791163333536216" />
+      <edge id="10" source="D000230" target="D015275" weight="0.0004555224894207945" />
+      <edge id="11" source="D000230" target="D015324" weight="2.071527495256309e-05" />
+      <edge id="12" source="D000230" target="D003924" weight="0.0005432954585496959" />
+      <edge id="13" source="D015275" target="D016207" weight="5.381700296954534e-05" />
+      <edge id="14" source="D015275" target="D010182" weight="6.406786067803016e-07" />
+      <edge id="15" source="D015275" target="D010190" weight="0.00014927811537981028" />
+      <edge id="16" source="D015275" target="D015324" weight="2.0074596345782788e-05" />
+      <edge id="17" source="D015324" target="D010190" weight="2.4986465664431766e-05" />
+      <edge id="18" source="D015324" target="D010182" weight="6.406786067803016e-07" />
+      <edge id="19" source="D015324" target="D016207" weight="9.396619566111092e-06" />
+      <edge id="20" source="D010190" target="D016207" weight="4.698309783055546e-05" />
+      <edge id="21" source="D010190" target="D010182" weight="6.406786067803016e-07" />
+      <edge id="22" source="D016207" target="D003924" weight="7.261024210176753e-05" />
+      <edge id="23" source="D003924" target="D010182" weight="0.0005432954585496959" />
+    </edges>
+  </graph>
+</gexf>

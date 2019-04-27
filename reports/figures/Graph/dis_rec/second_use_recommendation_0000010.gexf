@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="category" type="string" />
+      <attribute id="1" title="mesh_heading" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>09/04/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="D004317" label="D004317">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="Fluorouracil Doxorubicin" />
+        </attvalues>
+      </node>
+      <node id="D024841" label="D024841">
+        <attvalues>
+          <attvalue for="0" value="X" />
+          <attvalue for="1" value="fluoroquinolones trovafloxacin" />
+        </attvalues>
+      </node>
+      <node id="D005047" label="D005047">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="VP16SOX9�" />
+        </attvalues>
+      </node>
+      <node id="D004791" label="D004791">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="enzyme acid" />
+        </attvalues>
+      </node>
+      <node id="D015275" label="D015275">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Tumor Lysis Syndrome" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="D004317" target="D024841" weight="0.0005689226028209079" />
+      <edge id="1" source="D004317" target="D004791" weight="0.0003792817352139386" />
+      <edge id="2" source="D004317" target="D005047" weight="0.04216348623128284" />
+      <edge id="3" source="D004317" target="D015275" weight="0.0009719094464857177" />
+      <edge id="4" source="D024841" target="D005047" weight="0.0003536545909427265" />
+      <edge id="5" source="D024841" target="D004791" weight="1.5376286562727242e-05" />
+      <edge id="6" source="D005047" target="D015275" weight="5.894243182378776e-05" />
+      <edge id="7" source="D005047" target="D004791" weight="0.00028488842048164084" />
+      <edge id="8" source="D004791" target="D015275" weight="5.552547925429281e-06" />
+    </edges>
+  </graph>
+</gexf>

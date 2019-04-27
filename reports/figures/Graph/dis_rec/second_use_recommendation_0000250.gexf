@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="category" type="string" />
+      <attribute id="1" title="mesh_heading" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>09/04/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="D014750" label="D014750">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="vincristine PRC2" />
+        </attvalues>
+      </node>
+      <node id="D015848" label="D015848">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="eosinophil" />
+        </attvalues>
+      </node>
+      <node id="D020123" label="D020123">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="rapamycin Rapamycin" />
+        </attvalues>
+      </node>
+      <node id="D004317" label="D004317">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="Fluorouracil Doxorubicin" />
+        </attvalues>
+      </node>
+      <node id="D003907" label="D003907">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="Dexamethasone PAD" />
+        </attvalues>
+      </node>
+      <node id="D013792" label="D013792">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="Thalidomide THAL" />
+        </attvalues>
+      </node>
+      <node id="D016212" label="D016212">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="TGFbetaPRMT5MEP50" />
+        </attvalues>
+      </node>
+      <node id="D059805" label="D059805">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="HiDRA" />
+        </attvalues>
+      </node>
+      <node id="D008558" label="D008558">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="Melphalan" />
+        </attvalues>
+      </node>
+      <node id="D003520" label="D003520">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="CP609550" />
+        </attvalues>
+      </node>
+      <node id="D016207" label="D016207">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="Disparate Innate Cytokine" />
+        </attvalues>
+      </node>
+      <node id="D011241" label="D011241">
+        <attvalues>
+          <attvalue for="0" value="X" />
+          <attvalue for="1" value="prednisone AA" />
+        </attvalues>
+      </node>
+      <node id="D011239" label="D011239">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="CCRFCEM Prednisolone" />
+        </attvalues>
+      </node>
+      <node id="D016572" label="D016572">
+        <attvalues>
+          <attvalue for="0" value="D" />
+          <attvalue for="1" value="cyclosporin A" />
+        </attvalues>
+      </node>
+      <node id="D005910" label="D005910">
+        <attvalues>
+          <attvalue for="0" value="C" />
+          <attvalue for="1" value="Glioma" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="D014750" target="D005910" weight="0.00041857668976313044" />
+      <edge id="1" source="D014750" target="D011241" weight="0.012138724003130782" />
+      <edge id="2" source="D014750" target="D013792" weight="0.004072153224695597" />
+      <edge id="3" source="D014750" target="D008558" weight="0.003054114918521698" />
+      <edge id="4" source="D014750" target="D016207" weight="1.7939000989848447e-05" />
+      <edge id="5" source="D014750" target="D004317" weight="0.13894354233337283" />
+      <edge id="6" source="D014750" target="D011239" weight="0.008350604960774452" />
+      <edge id="7" source="D014750" target="D003520" weight="0.14604589180860367" />
+      <edge id="8" source="D014750" target="D003907" weight="0.029267480114937742" />
+      <edge id="9" source="D014750" target="D059805" weight="3.5878001979696895e-05" />
+      <edge id="10" source="D015848" target="D016207" weight="1.4522048420353506e-05" />
+      <edge id="11" source="D015848" target="D011241" weight="7.68814328136362e-05" />
+      <edge id="12" source="D020123" target="D005910" weight="0.00014329844838319414" />
+      <edge id="13" source="D020123" target="D011241" weight="0.00048157675276319347" />
+      <edge id="14" source="D020123" target="D016207" weight="0.002856572348097772" />
+      <edge id="15" source="D020123" target="D003907" weight="0.03927317147656131" />
+      <edge id="16" source="D020123" target="D016572" weight="0.007970682546953734" />
+      <edge id="17" source="D020123" target="D004317" weight="0.0006084311169056931" />
+      <edge id="18" source="D020123" target="D016212" weight="0.00031713591035624933" />
+      <edge id="19" source="D004317" target="D005910" weight="4.7410216901742323e-05" />
+      <edge id="20" source="D004317" target="D011241" weight="0.06416182687369128" />
+      <edge id="21" source="D004317" target="D013792" weight="0.021524238473391015" />
+      <edge id="22" source="D004317" target="D016207" weight="0.0006637430366243926" />
+      <edge id="23" source="D004317" target="D011239" weight="0.01671210145786417" />
+      <edge id="24" source="D004317" target="D003907" weight="0.1423728813559322" />
+      <edge id="25" source="D004317" target="D003520" weight="1.0" />
+      <edge id="26" source="D004317" target="D016572" weight="0.004930662557781202" />
+      <edge id="27" source="D004317" target="D008558" weight="0.016427640156453715" />
+      <edge id="28" source="D004317" target="D059805" weight="0.0001896408676069693" />
+      <edge id="29" source="D003907" target="D011241" weight="0.0018878662946459556" />
+      <edge id="30" source="D003907" target="D013792" weight="0.04135537694859729" />
+      <edge id="31" source="D003907" target="D016207" weight="0.0007995669012618165" />
+      <edge id="32" source="D003907" target="D011239" weight="0.012043476450256111" />
+      <edge id="33" source="D003907" target="D008558" weight="0.014092366634739516" />
+      <edge id="34" source="D003907" target="D016212" weight="0.0009828009828009828" />
+      <edge id="35" source="D003907" target="D003520" weight="0.14920251530421022" />
+      <edge id="36" source="D013792" target="D005910" weight="1.0250857708484826e-05" />
+      <edge id="37" source="D013792" target="D011241" weight="0.00029044096840707013" />
+      <edge id="38" source="D013792" target="D008558" weight="0.001919473105913784" />
+      <edge id="39" source="D013792" target="D016207" weight="8.88407668068685e-05" />
+      <edge id="40" source="D013792" target="D011239" weight="0.0017452085248695418" />
+      <edge id="41" source="D013792" target="D003520" weight="0.022687710823304043" />
+      <edge id="42" source="D016212" target="D005910" weight="9.866450544416646e-05" />
+      <edge id="43" source="D016212" target="D016207" weight="0.0002511460138578783" />
+      <edge id="44" source="D016212" target="D011241" weight="0.000932187372865339" />
+      <edge id="45" source="D016212" target="D016572" weight="0.0002248781909798859" />
+      <edge id="46" source="D059805" target="D003520" weight="0.00019989172531545413" />
+      <edge id="47" source="D059805" target="D011241" weight="2.5627144271212067e-05" />
+      <edge id="48" source="D008558" target="D011239" weight="0.0013089063936521563" />
+      <edge id="49" source="D008558" target="D003520" weight="0.017015783117478034" />
+      <edge id="50" source="D008558" target="D011241" weight="0.00021783072630530257" />
+      <edge id="51" source="D003520" target="D005910" weight="7.49593969932953e-05" />
+      <edge id="52" source="D003520" target="D011241" weight="0.06763003373172864" />
+      <edge id="53" source="D003520" target="D016207" weight="9.994586265772706e-05" />
+      <edge id="54" source="D003520" target="D011239" weight="0.017615458293424396" />
+      <edge id="55" source="D016207" target="D005910" weight="5.808819368141402e-05" />
+      <edge id="56" source="D016207" target="D011239" weight="0.000917451764909392" />
+      <edge id="57" source="D016207" target="D011241" weight="1.2813572135606033e-05" />
+      <edge id="58" source="D016207" target="D016572" weight="0.0007995669012618165" />
+      <edge id="59" source="D011241" target="D016572" weight="0.001707408487069504" />
+      <edge id="60" source="D011241" target="D011239" weight="0.00013774590045776487" />
+    </edges>
+  </graph>
+</gexf>
